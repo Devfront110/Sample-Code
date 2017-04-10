@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<style>
+    * {
+        margin: 0; padding: 0;
+    }
+    html, body, #container {
+        height: 100%;
+    }
+
+    main {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .top {
+        height: 30%;
+        background: whitesmoke;
+
+    }
+    .middle {
+        height: 50%;
+        background: whitesmoke;
+
+    }
+    .bottom {
+        height: 20%;
+        background: whitesmoke;
+
+    }
+    input[type=text],[type=tel],[type=email],[type=email],[type=password]{
+        width: 60%;
+        padding: 6px 20px;
+        margin: 8px 20px;
+        box-sizing: border-box;
+    }
+    input[type=submit] {
+        float: left;
+        background-color: blue;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+
+
+
+</style>
+<div id="container">
+    <header></header>
+    <main>
+        <div class="top">
+            <div style="float:left; width:33%; height: 100%;">
+                <img src="img/index.jpeg" alt="logo" style="float:left; width:200px;height:200px;">
+                <div><h2>Company Name</h2></div>
+            </div>
+            <div style="float:left; width:33%; height:100%; ">
+                <style>
+                    ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        overflow: hidden;
+                        background-color: #333;
+                    }
+
+                    li {
+                        margin: 0;
+                        float:left;
+                    }
+
+                    li a {
+                        display: block;
+                        color: white;
+                        text-align: center;
+                        padding: 14px 45px;
+                        text-decoration: none;
+                    }
+
+                    li a:hover {
+                        background-color: #111;
+                    }
+                </style>
+
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="video.html">Videos</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+
+            </div>
+            <div style="float:left; width:34%; height: 100%; ">
+
+                <div style="float: left; margin: 0px 30px">
+                    <h3 style="color: blue">Related Links</h3>
+                    <a href="https://www.facebook.com/"> <img src="img/4.jpeg" alt="facebook.com"></a>
+                    <a href="https://twitter.com/"> <img src="img/5.png" alt="twitter.com"></a>
+                    <a href="https://in.linkedin.com/"> <img src="img/6.png" alt="linkedin.com"></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="middle">
+            <div style="float:left; width:60%; height: 100%;overflow:auto;">
+                <form action="success.html" style="margin: 20px">
+                    <h2>Register Yourself!!!</h2>
+                    <table>
+                        <td>
+                            <tr>Full Name</tr>
+                            <tr style="margin: 10px 10px"><input type="text" id="fname" name="fname"></tr><br>
+                        </td>
+                        <td>
+                            <tr>Email Id</tr>
+                            <tr style="margin: 10px 10px"><input type="email" id="email" name="email"></tr><br>
+                        </td>
+                        <td>
+                            <tr>Password</tr>
+                            <tr style="margin: 10px 10px"><input type="password" id="password" name="password"></tr><br>
+                        </td>
+                        <td>
+                            <tr>Contact Number</tr>
+                            <tr style="margin: 10px 10px"><input type="tel" id="tel" name="tel"></tr><br>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="agree"  > I agree to your terms and conditions.<br>
+                        </td>
+                        <td>
+                            <input type="submit" value="Submit">
+                        </td>
+                    </table>
+
+
+                </form>
+
+
+
+            </div>
+            <div style="float:left; width:40%; height: 100%;">
+                <div style="margin:10px">
+                    <form action="success.html" style="margin: 20px">
+                        <h2>Register Yourself!!!</h2>
+
+
+                        Email Id <input type="email" id="email1" name="email"><br>
+                        Password <input type="password" id="password1" name=password><br>
+                        <input type="submit" value="login">
+
+
+                    </form>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="bottom">
+            <h5 style="float: left">copyright</h5>
+        </div>
+    </main>
+</div>
+</body>
+</html>
